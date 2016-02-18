@@ -3,11 +3,11 @@
 $EmailFrom = "chriscoyier@gmail.com";
 $EmailTo = "AKTnowHK@gmail.com";
 $Subject = "Nice & Simple Contact Form by CSS-Tricks";
-$Name = Trim(stripslashes($_GET['Name'])); 
-$Address = Trim(stripslashes($_GET['Address'])); 
-$Phone = Trim(stripslashes($_GET['Phone'])); 
-$Email = Trim(stripslashes($_GET['Email'])); 
-$Message = Trim(stripslashes($_GET['Message'])); 
+$Name = Trim(stripslashes($_POST['Name'])); 
+$Address = Trim(stripslashes($_POST['Address'])); 
+$Phone = Trim(stripslashes($_POST['Phone'])); 
+$Email = Trim(stripslashes($_POST['Email'])); 
+$Message = Trim(stripslashes($_POST['Message'])); 
 
 // validation
 $validationOK=true;
