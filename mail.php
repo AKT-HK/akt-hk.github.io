@@ -1,8 +1,8 @@
 <?php
-$name = $_POST['name'];
-$email = $_POST['email'];
-$dropdown = $POST['dropdown'];
-$message = $_POST['message'];
+$name = $_GET['name'];
+$email = $_GET['email'];
+$dropdown = $GET['dropdown'];
+$message = $_GET['message'];
 $formcontent="From: $name \n Message: $message";
 $recipient = "AKTnowHK@gmail.com";
 /*$recipient = "210591@hkis.edu.hk";*/
